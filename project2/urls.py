@@ -21,5 +21,6 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("meroapp.urls")),
+    
     # url(r'^admin/', admin.site.urls),
 ]
